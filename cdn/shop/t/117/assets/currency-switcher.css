@@ -1,0 +1,114 @@
+.currency-form {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+    font-family: inherit
+}
+
+.currency-dropdown {
+    width: auto;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 15px;
+    font-weight: 500
+}
+
+.currency-selected {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px #00000014;
+    position: relative;
+    min-width: auto;
+    width: fit-content;
+    max-width: 120px;
+    transition: box-shadow .2s ease
+}
+
+.currency-selected span {
+    flex: 1;
+    color: #2c2c2c;
+    font-size: 15px;
+    font-weight: 500
+}
+
+.currency-selected:after {
+    content: "\25be";
+    font-size: 16px;
+    color: #555;
+    position: relative;
+    top: 1px;
+    margin-left: 6px
+}
+
+.currency-selected img {
+    width: 32px;
+    height: 22px;
+    object-fit: cover;
+    border-radius: 3px
+}
+
+.currency-options {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 160px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 6px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px #0000001f;
+    z-index: 100;
+    scrollbar-width: thin
+}
+
+.currency-options li {
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #333
+}
+
+.currency-options li:hover {
+    background-color: #f3f6f4
+}
+
+.currency-options img {
+    width: 32px;
+    height: 22px;
+    object-fit: cover;
+    border-radius: 3px
+}
+
+#CurrencySelectorSelect {
+    display: none
+}
+
+.currency-selected img,
+.currency-options img {
+    width: auto;
+    height: 20px;
+    max-width: 30px;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    border-radius: 2px;
+    image-rendering: auto
+}
+
+/*# sourceMappingURL=/cdn/shop/t/117/assets/currency-switcher.css.map?v=99590711973498204591753345523 */

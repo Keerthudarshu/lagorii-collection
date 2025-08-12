@@ -1,0 +1,144 @@
+body.active_ship_charge {
+    overflow-y: hidden
+}
+
+.shiping_charge_popup.has_popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000000b3;
+    transition: opacity .5s all ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 999;
+    display: flex
+}
+
+.shiping_charge_popup:not(.has_popup) {
+    margin: 50px auto
+}
+
+.shiping_charge_popup.active_popup {
+    opacity: 1;
+    visibility: visible
+}
+
+.shiping_charge_popup_inner {
+    position: relative;
+    padding: 20px;
+    max-width: 360px;
+    width: calc(100% - 30px);
+    transition: 1s ease-in-out;
+    margin: auto;
+    background-color: #fff
+}
+
+.shiping_charge_popup:not(.has_popup) .shiping_charge_popup_inner {
+    border: 1px solid #e87529;
+    margin: 0 auto
+}
+
+.has_popup #close_shipping_charges_popup {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    line-height: 1
+}
+
+.has_popup #close_shipping_charges_popup svg {
+    width: 15px;
+    height: 15px;
+    fill: #e87529
+}
+
+.popup_title {
+    font-size: 16px;
+    border-bottom: 1px solid #e87529;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    color: #e87529
+}
+
+.charge_table .ship-country {
+    display: none
+}
+
+.shiping_charge_popup .cnt_label,
+.shiping_charge_popup .country_name {
+    font-size: var(--font-body-size);
+    font-weight: var(--font-weight-normal);
+    line-height: 24px;
+    letter-spacing: var(--body-letter-spacing);
+    color: #e87529
+}
+
+.shiping_charge_popup .country_name {
+    text-transform: uppercase;
+    color: #e87529
+}
+
+.shiping_charge_popup .ship_to_container .select__select {
+    padding: 7px 30px 7px 10px;
+    min-height: unset;
+    max-width: 100%;
+    line-height: 1.2;
+    margin-top: 5px;
+    box-shadow: unset;
+    border: 1px solid #e87529;
+    color: #e87529;
+    background-image: url(/cdn/shop/files/downarrow_Layer.svg?v=1692956243);
+    background-size: 13px
+}
+
+.shiping_charge_popup .charge_table {
+    margin-top: 20px
+}
+
+.shipping_charges_table_container table {
+    width: 100%;
+    border-right: 1px solid #ff9800;
+    border-bottom: 1px solid #ff9800
+}
+
+.shipping_charges_table_container thead {
+    background-color: #e87529;
+    color: #fff;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.shipping_charges_table_container td {
+    font-size: 13px;
+    color: #e87529;
+    padding: 5px;
+    border: none;
+    border-top: 1px solid #ff9800;
+    border-left: 1px solid #ff9800;
+    text-align: center
+}
+
+.shipping_charges_table_container thead td {
+    font-weight: 700;
+    color: #fff
+}
+
+.open_charge_popup {
+    text-decoration: underline
+}
+
+.open_charge_popup svg {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0 0
+}
+
+@media (max-width: 767px) {
+    .shiping_charge_popup_inner {
+        padding: 15px
+    }
+}
+
+/*# sourceMappingURL=/cdn/shop/t/117/assets/lagorii-custom.css.map?v=180921627533262332151753345554 */

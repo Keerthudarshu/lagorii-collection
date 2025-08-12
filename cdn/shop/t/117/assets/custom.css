@@ -1,0 +1,81 @@
+.sections-image-banner-block .image-banner .item+.item {
+    margin-top: 0
+}
+
+.sections-brand-slider .halo-row .slick-list {
+    width: 100% !important
+}
+
+@media (max-width: 551px) {
+    body.product-card-layout-08 .halo-productBadges {
+        top: calc(var(--badge-postion-top) - 5px)
+    }
+    body.product-card-layout-08 .halo-productBadges--left {
+        left: calc(var(--badge-postion-left-right) - 5px)
+    }
+    .wishlist-container .card-wishlist .wishlist-icon,
+    .product-card-layout-04 .wishlist-container .card-action-bottom .card-wishlist .wishlist-icon {
+        width: 30px !important;
+        height: 30px !important
+    }
+}
+
+.wishlist-container .card-wishlist .wishlist-icon,
+.product-card-layout-04 .wishlist-container .card-action-bottom .card-wishlist .wishlist-icon {
+    width: 36px !important;
+    height: 36px !important
+}
+
+.sb_edd_form {
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important
+}
+
+.productView-price {
+    padding: 5px 0 !important
+}
+
+@media (max-width: 767px) {
+    .productView-stickyCart.style-1 .sticky-right .sticky-wishlist,
+    .always-on-mobile.productView-stickyCart.style-1 .productView-groupBottom,
+    .productView-stickyCart.style-1 .sticky-right .sticky-actions .empty-add-cart-button-wrapper {
+        display: none !important
+    }
+    .productView-stickyCart.style-1 .sticky-right .sticky-actions form,
+    .productView-stickyCart.style-1 .sticky-right .sticky-options {
+        display: block !important
+    }
+    .always-on-mobile.productView-stickyCart.style-1 .sticky-actions-row {
+        padding-left: 0 !important
+    }
+    .productView-stickyCart.style-1 .sticky-options {
+        width: 40% !important
+    }
+    .productView-form.always-on-mobile .productView-groupBottom,
+    .productView-form.always-on-mobile .pvGroup-row .productView-wishlist,
+    .productView-form.always-on-mobile .pvGroup-row .productView-action,
+    .productView-form.always-on-mobile .pvGroup-row .quantity__group--1 {
+        display: block !important
+    }
+    body .productView-nav .slick-dots {
+        display: block !important;
+        left: 50% !important;
+        transform: translate(-50%) !important;
+        background: unset !important
+    }
+    .productView-nav .slick-dots li.slick-active button,
+    .productView-nav .slider-dots li.active button {
+        width: 20px !important;
+        border-radius: 7px !important
+    }
+}
+
+.template-product inbox-online-store-chat,
+.template-product .baDropdownStyle {
+    bottom: 130px !important
+}
+
+/*# sourceMappingURL=/cdn/shop/t/117/assets/custom.css.map?v=151565084961170434681753345524 */
