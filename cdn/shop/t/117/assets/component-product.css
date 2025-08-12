@@ -149,7 +149,7 @@
 
 .productView-image .productView-img-container .media.has-video {
     opacity: 0;
-    visibility: hidden;
+    ;
     pointer-events: none;
     z-index: -1
 }
@@ -349,7 +349,7 @@
 
 .cursor-wrapper.handleMouseLeave {
     opacity: 0;
-    visibility: hidden;
+    ;
     pointer-events: none;
     transition: opacity .4s ease, visibility .4s ease
 }
@@ -1141,7 +1141,7 @@
     text-align: left;
     transition: opacity var(--duration-default) ease, visibility var(--duration-default) ease, transform var(--duration-default) ease;
     opacity: 0;
-    visibility: hidden;
+    ;
     transform: translate(-102%)
 }
 
@@ -1269,7 +1269,7 @@
 
 .productView-hotStock.is-hide {
     opacity: 0;
-    visibility: hidden;
+    ;
     transform: scaleY(0);
     height: 0
 }

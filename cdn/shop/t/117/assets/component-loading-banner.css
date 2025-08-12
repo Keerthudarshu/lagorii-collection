@@ -63,7 +63,7 @@
     height: 0;
     transform: translateY(-50%);
     opacity: 0;
-    visibility: hidden;
+    ;
     transition: var(--anchor-transition)
 }
 
@@ -784,7 +784,7 @@
     }
     .content-box--hover {
         opacity: 0;
-        visibility: hidden;
+        ;
         pointer-events: none;
         transition: var(--anchor-transition)
     }

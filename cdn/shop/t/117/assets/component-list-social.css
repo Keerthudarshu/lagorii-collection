@@ -86,7 +86,7 @@ li.list-social__item:last-child {
     height: 100%;
     padding: 4px 0 0 15px;
     opacity: 0;
-    visibility: hidden;
+    ;
     pointer-events: none;
     overflow: hidden;
     transition: var(--anchor-transition)

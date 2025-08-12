@@ -185,7 +185,7 @@ body:not(.quick_shop_option_2) .halo-product-list-view-popup .form-label+.swatch
     .halo-product-list-view-popup {
         --duration-long: .5s;
         opacity: 0;
-        visibility: hidden
+        
     }
     body.quickshop-list-view-show .halo-product-list-view-popup {
         --duration-long: .5s;

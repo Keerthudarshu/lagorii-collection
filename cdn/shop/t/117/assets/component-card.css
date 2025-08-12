@@ -215,7 +215,7 @@
     width: 0;
     opacity: 0;
     overflow: hidden;
-    visibility: hidden;
+    ;
     right: calc(100% - 30px);
     height: 36px;
     background-color: var(--bg-white);
@@ -283,7 +283,7 @@
     transition: transform var(--duration-default) ease, visibility var(--duration-default) ease;
     transform: translate3d(-50%, calc(-50% - 10px), 0);
     opacity: 0;
-    visibility: hidden;
+    ;
     pointer-events: none;
     width: auto
 }
@@ -378,7 +378,7 @@
 
 .card-compare:not(.card-compareIcon) {
     opacity: 0;
-    visibility: hidden;
+    ;
     pointer-events: none;
     transition: var(--anchor-transition);
     transition-duration: var(--duration-default)
@@ -525,7 +525,7 @@
 .card-action .variants-popup {
     display: block;
     opacity: 0;
-    visibility: hidden;
+    ;
     position: absolute;
     top: auto;
     bottom: 0;
@@ -958,7 +958,7 @@
 .card-price.animated-loading .price,
 .card-action.animated-loading .button {
     opacity: 0;
-    visibility: hidden
+    
 }
 
 .card-information__wrapper.text-center .card-price,
@@ -1099,7 +1099,7 @@
     transform: translate(-50%);
     width: 100%;
     opacity: 0;
-    visibility: hidden;
+    ;
     pointer-events: none;
     z-index: 1
 }
@@ -1693,7 +1693,7 @@
 
 .quick_shop_option_2 .product-item.quickshop-popup-show .card-action>form {
     opacity: 0;
-    visibility: hidden
+    
 }
 
 quickshop-update-quantity.disabled {
@@ -2538,7 +2538,7 @@ quickshop-update-quantity.disabled {
     .card-product__group,
     .card-action {
         opacity: 0;
-        visibility: hidden
+        
     }
     .card-product__group.group-right {
         transform: translate3d(10px, 0, 0)
@@ -2565,7 +2565,7 @@ quickshop-update-quantity.disabled {
     .card-swatch .group-swatch .tooltip {
         display: block;
         opacity: 0;
-        visibility: hidden;
+        ;
         pointer-events: none
     }
     .card-swatch .item:hover .tooltip,
@@ -2576,7 +2576,7 @@ quickshop-update-quantity.disabled {
     }
     .card-swatch--slider {
         opacity: 0;
-        visibility: hidden;
+        ;
         pointer-events: none;
         transform: translate3d(0, 30px, 0)
     }

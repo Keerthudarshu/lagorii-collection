@@ -1,6 +1,6 @@
 .menu-dropdown {
     max-height: 70vh;
-    visibility: hidden;
+    ;
     pointer-events: none;
     box-shadow: 0 6px 27px #0003;
     background-color: var(--bg-white)

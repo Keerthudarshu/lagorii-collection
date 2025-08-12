@@ -554,7 +554,7 @@ body.cart-sidebar-show .halo-cart-sidebar {
     z-index: 9;
     transform: translate3d(0, 50%, 0);
     opacity: 0;
-    visibility: hidden;
+    ;
     transition: transform var(--duration-default) ease, visibility var(--duration-default) ease, opacity var(--duration-default) ease
 }
 
@@ -1036,7 +1036,7 @@ body:not(.quick_shop_option_3) .previewCartCollection .product-card__button2 {
         height: 100%;
         z-index: 3;
         opacity: 0;
-        visibility: hidden;
+        ;
         background: #0000004d;
         transition: var(--anchor-transition)
     }

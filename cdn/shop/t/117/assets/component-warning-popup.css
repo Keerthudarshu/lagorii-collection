@@ -9,7 +9,7 @@
     min-height: 60px;
     transform: translateY(100%);
     opacity: 0;
-    visibility: hidden;
+    ;
     z-index: 200;
     display: flex;
     align-items: center;

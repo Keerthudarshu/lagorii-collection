@@ -90,7 +90,7 @@ option.soldout {
     top: 55%;
     transform: translateY(-50%);
     height: 100%;
-    visibility: hidden;
+    ;
     opacity: 0
 }
 
@@ -1591,7 +1591,7 @@ details>* {
 }
 
 .visibility-hidden {
-    visibility: hidden
+    
 }
 
 .image-zoom {
@@ -1936,17 +1936,17 @@ input.form-input-placeholder::placeholder {
 
 input.form-input-placeholder:focus::-webkit-input-placeholder {
     opacity: 0;
-    visibility: hidden
+    
 }
 
 input.form-input-placeholder:focus:-ms-input-placeholder {
     opacity: 0;
-    visibility: hidden
+    
 }
 
 input.form-input-placeholder:focus::placeholder {
     opacity: 0;
-    visibility: hidden
+    
 }
 
 .field__input::-webkit-search-cancel-button {
@@ -1955,17 +1955,17 @@ input.form-input-placeholder:focus::placeholder {
 
 input.form-input-hiddenPlaceholder::-webkit-input-placeholder {
     opacity: 0;
-    visibility: hidden
+    
 }
 
 input.form-input-hiddenPlaceholder::-ms-input-placeholder {
     opacity: 0;
-    visibility: hidden
+    
 }
 
 input.form-input-hiddenPlaceholder::placeholder {
     opacity: 0;
-    visibility: hidden
+    
 }
 
 .field__input:focus~.field__labelInline,
@@ -3034,7 +3034,7 @@ details:not(.menu-opening)>.header__icon--menu .icon-close,
 details.menu-opening>.header__icon--menu .icon-hamburger {
     display: none;
     opacity: 0;
-    visibility: hidden;
+    ;
     transform: scale(.8)
 }
 
@@ -3502,7 +3502,7 @@ menu-drawer+.header__search {
     width: 100%;
     max-width: calc(100% - 30px);
     opacity: 0;
-    visibility: hidden;
+    ;
     pointer-events: none;
     background-color: var(--bg-white);
     box-shadow: 0 6px 27px #0003;
@@ -3649,7 +3649,7 @@ body.term-condition-show .background-overlay {
     max-width: calc(100vw - 40px);
     width: 100%;
     opacity: 1;
-    visibility: hidden;
+    ;
     transition: opacity .5s, transform var(--duration-long) ease, visibility var(--duration-long) ease;
     background-color: var(--bg-white)
 }
@@ -4829,7 +4829,7 @@ body.is-custom-information .background-overlay {
     }
     .halo-lookbook-popup-mobile {
         opacity: 0;
-        visibility: hidden;
+        ;
         transition: opacity var(--lookbook-mobile-duraton) ease, visibility var(--lookbook-mobile-duraton) ease
     }
     .halo-lookbook-popup-mobile .product-item {
@@ -4947,7 +4947,7 @@ body.is-custom-information .background-overlay {
         stroke: var(--color-text)
     }
     .hide-on-mobile {
-        visibility: hidden
+        
     }
     .footbar-fixed-left.cookie_someone_right {
         position: absolute;
@@ -5805,7 +5805,7 @@ body.is-custom-information .background-overlay {
         margin-left: 28px
     }
     [data-show-lookbook-container][data-style="2"] [data-lookbook-item-container] .select-icon.invisible {
-        visibility: hidden
+        
     }
     .header-wrapper .header-bottom .fixed-left,
     .header-wrapper .header-bottom .fixed-right,

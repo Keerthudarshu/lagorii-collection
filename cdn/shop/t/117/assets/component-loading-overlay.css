@@ -136,7 +136,7 @@ predictive-search[open] .spinner {
 .product-item--loadingNoInfo .card-title .text,
 .product-item--loadingNoInfo .card-price .price {
     opacity: 0;
-    visibility: hidden
+    
 }
 
 .show_image_loading .media--loading-effect {

@@ -60,7 +60,7 @@
     width: 100%;
     opacity: 0;
     z-index: 1;
-    visibility: hidden;
+    ;
     box-shadow: none;
     transition: opacity var(--duration-default) ease, transform var(--duration-default) ease, visibility var(--duration-default) ease;
     background: var(--bg-white);

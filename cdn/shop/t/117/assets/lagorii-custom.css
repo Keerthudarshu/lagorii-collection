@@ -10,7 +10,7 @@ body.active_ship_charge {
     left: 0;
     background: #000000b3;
     transition: opacity .5s all ease-in-out;
-    visibility: hidden;
+    ;
     opacity: 0;
     z-index: 999;
     display: flex
